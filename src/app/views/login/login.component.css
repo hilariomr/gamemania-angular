@@ -13,4 +13,18 @@
 
 .campo-label {
     margin-bottom: 30px;
+    color: #000000;
+}
+
+.campo-label input {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border-color: #000000;
+}
+
+#botao-enviar {
+    width: auto;
+    background-color: #6f42c1;
+    color: #FFFFFF;
+    text-decoration: none;
 }

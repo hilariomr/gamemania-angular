@@ -1,7 +1,322 @@
-/* You can add global styles to this file, and also import other style files */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F3F3;
+    text-decoration: #454545;
+}
+
+header {
+    background-color: #9966CC;
+    height: 160px;
+    position: relative;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 14rem;
+}
+
+.logomarca {
+    width: 240px;
+    height: 80px;
+}
+
+.carrinho-de-compra {
+    width: 35px;
+    height: 35px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.busca {
+    width: 50%;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 11px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+}
+
+.botao-lupa {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 60px;
+    outline: none;
+    border: none;
+}
+
+.lupa {
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+}
+
+.login {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.login:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.icone-login {
+    width: 48px;
+    height: 48px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.navegacao-menu {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: #454545;
+    font-size: 22px;
+}
+
+.menu-barra {
+    margin-right: 8px;
+    margin-bottom: 2px;
+}
+
+.link-menu:hover {
+    color: inherit;
+}
+
+.link-menu-barras {
+    display: none;
+    width: 30px;
+}
+
+.frete-pagamento {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.departamento-lancamento {
+    margin-top: 46px;
+}
+
+.titulo-departamento {
+    font-size: 26px;
+    color: #454545;
+    height: 60px;
+    width: 60px;
+    margin-left: 100px;
+}
+
+.lista-departamento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.imagem-departamento {
+    padding-left: 38px;
+}
+
+.content-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-news {
+    margin: 20px;
+}
+
+.card-img-top {
+    height: 14em;
+}
+
+.card-body {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.value-text {
+    color: #A30015;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.rodape {
+    background-color: #A30015;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.redes-sociais {
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+}
+
+.opcao-rodape {
+    font-size: 20px;
+}
+
+.atendimento,
+.endereco,
+.contato,
+.cadastro-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1E2019;
+    display: flex;
+}
+
+.footer p {
+    color: #FFFFFF;
+    margin: auto;
+    height: 40px;
+    padding: 10px;
+}
+
+.cadastro-email h2 {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#campo-email {
+    width: 80%;
+    height: 40px;
+}
+
+.testes {
+    display: flex;
+}
+
+.botao-cadastrar {
+    background-color: #6f42c1;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .link-menu-barras {
+        display: inline-block;
+    }
+    .navegacao-menu {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: black;
+        height: 250px;
+        width: 100vw;
+        justify-content: space-around;
+        position: absolute;
+        top: 160px;
+        right: 0;
+    }
+    .menu-ativo {
+        display: flex;
+    }
+    .area-login,
+    .carrinho-de-compra,
+    .frete-pagamento {
+        display: none;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logomarca {
+        width: 140px;
+        height: 46.67px;
+    }
+    .logomarca {
+        width: 100%;
+    }
+    .teste {
+        float: right;
+    }
+    #carouselExampleIndicators {
+        display: none;
+    }
+    .titulo-departamento {
+        font-size: 22px;
+    }
+    .imagem-departamento {
+        width: 160px;
+    }
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .opcao-rodape {
+        font-size: 16px;
+    }
+    .atendimento p,
+    .endereco p,
+    .contato p {
+        font-size: 14px;
+    }
+    .redes-sociais {
+        width: 30px;
+        height: 30px;
+    }
+    .footer {
+        font-size: 12px;
+    }
+    .imagem-lancamento {
+        margin-top: 20px;
+    }
+    .imagem-departamento {
+        margin-top: 30px;
+    }
+    .busca {
+        width: 80%;
+    }
 }

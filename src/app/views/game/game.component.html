@@ -1,4 +1,16 @@
 <section class="container-fluid departamento-lancamento">
     <h2 class="titulo-departamento">Pc Gamer</h2>
-    <div id="espaco-produtos" class="content-news"></div>
+    <div id="espaco-produtos" class="content-news">
+        <div *ngFor="let produto of listaProdutos" class="cardnews">
+            <div class="card">
+
+                <img [src]=produto.imagem class="card-img-top " alt="... ">
+                <div class="card-body ">
+                    <h5 class="card-title ">{{produto.titulo}}</h5>
+                    <p class="card-text ">{{produto.descricao}}</p>
+                    <p class="value-text ">{{produto.valor}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
