@@ -1,87 +1,105 @@
 {
-    "produtos": [{
-            "id": 1,
-            "imagem": "assets/imagens/xbox.jpg",
-            "titulo": "XBOX 360",
-            "descricao": "Console XBOX 360",
-            "valor": "R$ 2.000"
-        },
-        {
-            "id": 2,
-            "imagem": "assets/imagens/play5.png",
-            "titulo": "PLAYSTATION 5",
-            "descricao": "Playstation 5 Completo",
-            "valor": "R$ 8.500"
-        },
-        {
-            "id": 3,
-            "imagem": "assets/imagens/nintendo.jpg",
-            "titulo": "NINTENDO SWITCH",
-            "descricao": "Baratinho",
-            "valor": "R$ 6.000"
-        },
-        {
-            "id": 4,
-            "imagem": "assets/imagens/pcgamer.jpg",
-            "titulo": "PC GAMER",
-            "descricao": "Pc Gamer",
-            "valor": "R$ 3.000"
-        },
-        {
-            "id": 5,
-            "imagem": "assets/imagens/xbox.jpg",
-            "titulo": "XBOX 360",
-            "descricao": "Console XBOX 360",
-            "valor": "R$ 2.000"
-        },
-        {
-            "id": 6,
-            "imagem": "assets/imagens/play5.png",
-            "titulo": "PLAYSTATION 5",
-            "descricao": "Playstation 5 Completo",
-            "valor": "R$ 6.000"
-        },
-        {
-            "id": 7,
-            "imagem": "assets/imagens/nintendo.jpg",
-            "titulo": "NINTENDO SWITCH",
-            "descricao": "Baratinho",
-            "valor": "R$ 1.000"
-        },
-        {
-            "id": 8,
-            "imagem": "assets/imagens/pcgamer.jpg",
-            "titulo": "PC GAMER",
-            "descricao": "Pc Gamer",
-            "valor": "R$ 10.000"
-        },
-        {
-            "id": 9,
-            "imagem": "assets/imagens/xbox.jpg",
-            "titulo": "XBOX 360",
-            "descricao": "Console XBOX 360",
-            "valor": "R$ 2.000"
-        },
-        {
-            "id": 10,
-            "imagem": "assets/imagens/play5.png",
-            "titulo": "PLAYSTATION 5",
-            "descricao": "Playstation 5 Completo",
-            "valor": "R$ 6.000"
-        },
-        {
-            "id": 11,
-            "imagem": "assets/imagens/nintendo.jpg",
-            "titulo": "NINTENDO SWITCH",
-            "descricao": "Baratinho",
-            "valor": "R$ 12.000"
-        },
-        {
-            "id": 12,
-            "imagem": "assets/imagens/play5.png",
-            "titulo": "PLAYSTATION 5",
-            "descricao": "Playstation 5 Completo",
-            "valor": "R$ 4.000"
-        }
-    ]
+  "users": [
+    {
+      "email": "marcos@gmail.com",
+      "password": "$2a$10$xiUECtXW.uo5mVItHvwXFOsnVzyotokTXqvyxfaUeYLfuhfKK6UH2",
+      "id": 1
+    },
+    {
+      "email": "email@gmail.com",
+      "password": "abcd",
+      "id": 2
+    },
+    {
+      "email": "email@email.com",
+      "password": "$2a$10$yFwkZZU7nuUNr0I.wACl1uNdtbM0I2YVGe6NF/.uWBvt67RuNwi0.",
+      "id": 3
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "imagem": "assets/imagens/xbox.jpg",
+      "titulo": "XBOX 360",
+      "descricao": "Console XBOX 360",
+      "valor": "R$ 2.000"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/imagens/play5.png",
+      "titulo": "PLAYSTATION 5",
+      "descricao": "Playstation 5 Completo",
+      "valor": "R$ 8.500"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/imagens/nintendo.jpg",
+      "titulo": "NINTENDO SWITCH",
+      "descricao": "Baratinho",
+      "valor": "R$ 6.000"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/imagens/pcgamer.jpg",
+      "titulo": "PC GAMER",
+      "descricao": "Pc Gamer",
+      "valor": "R$ 3.000"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/imagens/xbox.jpg",
+      "titulo": "XBOX 360",
+      "descricao": "Console XBOX 360",
+      "valor": "R$ 2.000"
+    },
+    {
+      "id": 6,
+      "imagem": "assets/imagens/play5.png",
+      "titulo": "PLAYSTATION 5",
+      "descricao": "Playstation 5 Completo",
+      "valor": "R$ 6.000"
+    },
+    {
+      "id": 7,
+      "imagem": "assets/imagens/nintendo.jpg",
+      "titulo": "NINTENDO SWITCH",
+      "descricao": "Baratinho",
+      "valor": "R$ 1.000"
+    },
+    {
+      "id": 8,
+      "imagem": "assets/imagens/pcgamer.jpg",
+      "titulo": "PC GAMER",
+      "descricao": "Pc Gamer",
+      "valor": "R$ 10.000"
+    },
+    {
+      "id": 9,
+      "imagem": "assets/imagens/xbox.jpg",
+      "titulo": "XBOX 360",
+      "descricao": "Console XBOX 360",
+      "valor": "R$ 2.000"
+    },
+    {
+      "id": 10,
+      "imagem": "assets/imagens/play5.png",
+      "titulo": "PLAYSTATION 5",
+      "descricao": "Playstation 5 Completo",
+      "valor": "R$ 6.000"
+    },
+    {
+      "id": 11,
+      "imagem": "assets/imagens/nintendo.jpg",
+      "titulo": "NINTENDO SWITCH",
+      "descricao": "Baratinho",
+      "valor": "R$ 12.000"
+    },
+    {
+      "id": 12,
+      "imagem": "assets/imagens/play5.png",
+      "titulo": "PLAYSTATION 5",
+      "descricao": "Playstation 5 Completo",
+      "valor": "R$ 4.000"
+    }
+  ]
 }
