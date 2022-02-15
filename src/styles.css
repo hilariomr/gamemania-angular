@@ -319,4 +319,7 @@ input {
     .busca {
         width: 80%;
     }
+    .login {
+        width: 50%;
+    }
 }
